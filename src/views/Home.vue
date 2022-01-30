@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="customWrapper">
     <div class="big1">
       <p>hello</p>
     </div>
@@ -12,47 +12,37 @@
     <div class="bigLastName">
       <p>ALTANAY</p>
     </div>
-    <div class="bigLink1">
-      <p href="">designer</p>
-    </div>
-    <div class="separator">
-      <p href="">k</p>
-    </div>
-    <div class="bigLink2">
-      <p href="">developer</p>
+    <div class="customMenuWrapper">
+        <span class="bigLink1 pa-8" href="">designer</span>
+        <span class="separator pa-8" href="">k</span>
+        <span class="bigLink2 pa-8" href="">developer</span>
     </div>
   </div>
 </template>
 
 <style>
+.customMenuWrapper {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+}
+.customWrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
 .bigLink1 {
   font-size: 35px;
   font-family: "ink free", sans-serif;
-  position: relative;
-  color: #222222;
-  top: -900px;
-  left: 600px;
-  width: 300px;
-  float: left;
 }
 .separator {
   font-size: 35px;
   font-family: "Marlett", sans-serif;
-  position: relative;
-  color: #222222;
-  top: -900px;
-  left: 600px;
-  width: 250px;
-  float: left;
 }
 .bigLink2 {
   font-size: 35px;
   font-family: "TerminessTTF Nerd Font", sans-serif;
-  position: relative;
-  color: #222222;
-  top: -900px;
-  left: 600px;
-  margin-left: 320px;
 }
 .big1 {
   font-size: 250px;
