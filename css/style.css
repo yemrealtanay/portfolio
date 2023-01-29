@@ -2,6 +2,8 @@
 
 * {
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 .container {
@@ -30,8 +32,8 @@ main > pre:nth-child(2) {
 
 
 body {
-    padding: 0;
-    margin:0;
+    padding: 10px;
+    margin:10px;
     font-family: 'Roboto Mono', sans-serif;
     background-color: #242624;
     color: #ccc;
