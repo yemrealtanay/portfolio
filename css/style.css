@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
 
+
 * {
     box-sizing: border-box;
     padding: 0;
@@ -76,6 +77,22 @@ h1{
     font-size: 35px;
     letter-spacing: -5px;
     margin-bottom: 20px;
+}
+
+.blinking {
+    font-size: 2rem;
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }
 
 @media screen and (max-width:767px){
