@@ -80,7 +80,7 @@ h1{
 }
 
 .blinking {
-    font-size: 2rem;
+    font-size: 40px;
     animation: blink-animation 1s steps(5, start) infinite;
     -webkit-animation: blink-animation 1s steps(5, start) infinite;
 }
